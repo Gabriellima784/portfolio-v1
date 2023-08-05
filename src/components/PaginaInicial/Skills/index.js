@@ -13,7 +13,7 @@ const Mid = () => {
                 <p>-</p>
                 <img id='mobilefoto' src='https://i.imgur.com/cjOmmjU.png'alt="Celular"></img>
                 <h1 id='mob1'>aplicações mobile</h1>
-                <p id='mob2'>Desenvolvimento Front-End de aplicativos para mobile em <br/>IOS/Android.</p>
+                <p id='mob2'>Prototipação de aplicativos para mobile em <br/>IOS/Android.</p>
 
             <p>-</p>
             <img id='uxfoto' className='w-40'  src='https://i.imgur.com/nn9yCbT.jpg' alt="UX/UI"></img>

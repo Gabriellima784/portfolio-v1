@@ -1,22 +1,99 @@
-.container {
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
     background-color: black;
-    position: relative; 
-    padding-top: 20px; 
-}
-
-.Projetos {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+    color: aliceblue;
+    padding-top: 20px;
+    text-align: center;
+  }
+  
+  .Projetos {
     font-family: 'Gurajada', serif;
     color: aliceblue;
     font-size: 78px;
-    position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 100%; 
-    text-align: center; 
-}
-
-.Food {
-    width: 700px;
+    margin-bottom: 30px;
+  }
+  
+  .container-images {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    color: aliceblue;
+    gap: 10%;
+  }
+  
+  .project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .Food {
+    width: 500px;
     height: auto;
-}
+    max-width: 100%;
+  }
+  
+  .Title {
+    font-family: 'Gurajada', serif;
+    font-size: 45px;
+    margin-left: auto; 
+    margin-right: auto; 
+  }
+  
+  .SubTitle {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    text-align: center;
+  }
+  
+  .Title2 {
+    font-family: 'Gurajada', serif;
+    font-size: 45px;
+    margin-bottom: 10px;
+  }
+  
+  .SubTitle2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    text-align: center;
+  }
+  
+ 
+  @media (max-width: 768px) {
+    .Projetos {
+      font-size: 48px;
+      margin-bottom: 20px;
+    }
+  
+    .container-images {
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+    }
+  
+    .project {
+      margin-bottom: 40px;
+    }
+  
+    .Title,
+    .Title2 {
+      font-size: 30px;
+    }
+  
+    .SubTitle,
+    .SubTitle2 {
+      font-size: 20px;
+    }
+  }
+  

@@ -3,9 +3,9 @@ import "./styles.css"
 
 export default function Inicio () {
     return (
-        <div className="container">
+        <div className="container-inicio">
             <div className="element">
-                <h2 className="Titulo">Oi 👋 EU SOU GABRIEL LIMA</h2>
+                <h2 className="Titulo">Olá <icon className="hand">👋</icon> EU SOU GABRIEL LIMA</h2>
                 <h1 className="Subtitulo">DESENVOLVEDOR</h1>
                 <h1 className="Subtitulo">FRONT-END UX/UI</h1>
                 <div className="images">

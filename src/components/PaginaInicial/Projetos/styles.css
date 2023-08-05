@@ -1,0 +1,22 @@
+.container {
+    background-color: black;
+    position: relative; 
+    padding-top: 20px; 
+}
+
+.Projetos {
+    font-family: 'Gurajada', serif;
+    color: aliceblue;
+    font-size: 78px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%; 
+    text-align: center; 
+}
+
+.Food {
+    width: 700px;
+    height: auto;
+}

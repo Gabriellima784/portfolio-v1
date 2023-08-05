@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+
+.header {
+    background-color: black;
+    color: rgb(255, 255, 255);
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li {
+    margin-right: 30px;
+}
+
+
+li:hover {
+    color: #DCE295;
+    transform: scale(1.10);
+    transition: font-size 0.3s ease;
+}
+
+

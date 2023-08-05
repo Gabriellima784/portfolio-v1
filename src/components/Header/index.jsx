@@ -1,10 +1,11 @@
 import React from "react";
+import './styles.css'; 
 
 const Header = () => {
 
     return (
      <>
-        <div id="header">
+        <div className="header">
             <nav>
                 <ul>
                     <li>Inicio</li>

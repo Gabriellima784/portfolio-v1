@@ -4,6 +4,7 @@ import Header from "../Header";
 import Inicio from "./Inicio";
 import Projetos from "./Projetos";
 import Mid from "./Skills";
+import Contato from "./Contato";
 
 export default function Conteudo () {
     
@@ -13,6 +14,7 @@ export default function Conteudo () {
             <Inicio />
             <Projetos />
             <Mid/>
+            <Contato/>
         </main>
     )
 }

@@ -13,10 +13,12 @@ export default function Inicio () {
                     <img className="icon" src="https://raw.githubusercontent.com/Gabriellima784/images/main/Vector%20(2).png"alt="Linkedin Logo"/>
                     <img className="icon" src="https://raw.githubusercontent.com/Gabriellima784/images/main/Vector.png" alt="CV Logo"/>
                 </div>
-                <p className="tex">Tenho 21 anos de idade e sou desenvolvedor Front-End,</p>
-                <p className="tex">discente em Analise e desenvolvimento de sistemas</p>
-                <p className="tex">com +6 meses de experiência voluntária no exterior como</p>
-                <p className="tex">desenvolvedor.</p>
+                <div className="resume">
+                    <p className="tex">Tenho 21 anos de idade e sou desenvolvedor Front-End,</p>
+                    <p className="tex">discente em Analise e desenvolvimento de sistemas</p>
+                    <p className="tex">com +6 meses de experiência voluntária no exterior como</p>
+                    <p className="tex">desenvolvedor.</p>
+                </div>
             </div>
         </div>
     )

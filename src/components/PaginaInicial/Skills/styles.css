@@ -13,6 +13,7 @@
     font-size: 30px;
     text-align: center;
     margin-top: auto;
+    overflow-x: hidden;
 }
 
 #webfoto{
@@ -94,5 +95,20 @@ margin-right: auto;
 
     #web1 {
         font-size: 30px;
+    }
+}
+
+@media (max-width:406px) {
+
+    #web1 {
+        font-size: 20px;
+    }
+
+    #mob1 {
+        font-size: 25px;
+    }
+
+    #ux1 {
+        font-size: 20px;
     }
 }

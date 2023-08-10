@@ -30,7 +30,7 @@
         }
 
         #web2{
-        font-family: 'Gowun Dodum', sans-serif;
+        font-family: 'Roboto', sans-serif;
         margin-top: 20px;
         font-size: 20px;
         text-align: center;
@@ -44,7 +44,7 @@ margin-right: auto;
 }
 
         #mob1{
-        font-family: 'Major Mono Display', monospace;
+            font-family: 'Major Mono Display', monospace;
         font-size: 40px;
         text-align: center;
         
@@ -55,7 +55,7 @@ margin-right: auto;
         margin-top: 20px;
         font-size: 20px;
         text-align: center;
-        font-family: 'Gowun Dodum', sans-serif;
+        font-family: 'Roboto', sans-serif;
         }
 
 
@@ -76,7 +76,7 @@ margin-right: auto;
         margin-top: 20px;
         font-size: 20px;
         text-align: center;
-        font-family: 'Gowun Dodum', sans-serif;
+        font-family: 'Roboto', sans-serif;
         } 
 
 

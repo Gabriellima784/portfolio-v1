@@ -1,0 +1,106 @@
+.Skills {
+    font-family: 'Gurajada', serif;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background: radial-gradient(farthest-corner, #270404, #000000 100%, transparent 70%);
+    font-size: 46px;
+}
+
+
+.Carousel {
+    width: 100%;
+    margin: 0 auto;
+    min-height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000;
+    background-image: url('https://raw.githubusercontent.com/Gabriellima784/images/main/LINGUAGENS.png');
+}
+  
+  .inner {
+    display: flex;
+    transition: transform 3.4s ease;
+  }
+  
+  .item{
+    min-height: 200px;
+    min-width: 300px;
+    padding: 14px;
+  }
+  
+  .item img {
+    width: 100%;
+    height: 90%;
+    border-radius: 12px;
+    pointer-events: none;
+  }
+  
+  .images2 {
+    cursor: grab;
+    overflow: hidden;
+  }
+  
+  .arrow {
+    position: absolute;
+    transform: translateY(-50%);
+    font-size: 24px;
+    cursor: pointer;
+    z-index: 1;
+    background-color: #000000; 
+    color: #fcfcfc; 
+    padding: 8px; 
+    border-radius: 50%; 
+  }
+  
+  
+  .arrow-left {
+    left: 10px;
+    margin-top: 2%;
+  }
+  
+  .arrow-right {
+    right: 10px;
+    margin-top: 2%;
+  }
+  
+  .arrow:hover {
+    color: #508023; 
+    transition: 0.3s;
+  }
+  
+  
+  @media (max-width: 768px) {
+    .inner {
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .item {
+        width: calc(25% - 28px);
+        margin: 14px;
+    }
+
+    .arrow-left {
+        display: none;
+    }
+
+    .arrow-right {
+        display: none;
+    }
+}
+
+   @media (max-width: 728px) {
+    .inner {
+        flex-wrap: wrap;
+        justify-content: center; 
+        align-content: space-between;
+       
+    }
+
+    .item {
+        width: calc(50% - 14px); 
+        margin: 7px; 
+    }
+}
+

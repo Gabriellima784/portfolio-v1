@@ -1,10 +1,10 @@
 import React from "react";
 import "./styles.css"
 
-const Mid = () => {
+export default function Mid () {
     return (
         <>
-        <div id='primeiro'> <h1 id='oque'>--- o que ofereço --- </h1>
+        <div id='primeiro'> <h1 id='oque'> o que ofereço </h1>
                 <p>-</p>
                 <img id='webfoto' src='https://i.imgur.com/7hjhgRj.png' alt="Tela"></img>
                 <h1 id='web1'>desenvolvimento web</h1>
@@ -27,4 +27,3 @@ const Mid = () => {
     )
 }
 
-export default Mid;

@@ -9,9 +9,20 @@ export default function Inicio () {
                 <h1 className="Subtitulo">DESENVOLVEDOR</h1>
                 <h1 className="Subtitulo">FULLSTACK UX/UI</h1>
                 <div className="images">
-                    <img className="icon" src="https://raw.githubusercontent.com/Gabriellima784/images/main/Vector%20(1).png" alt="GitHub Logo"/>
-                    <img className="icon" src="https://raw.githubusercontent.com/Gabriellima784/images/main/Vector%20(2).png"alt="Linkedin Logo"/>
-                    <img className="icon" src="https://raw.githubusercontent.com/Gabriellima784/images/main/in.png" alt="CV Logo"/>
+
+
+                    <a href="https://www.linkedin.com/in/gabriel-lima-77667b259/" target="blank">
+                        <img className="icon" id="Linkedin" src="https://raw.githubusercontent.com/Gabriellima784/images/main/in.png" alt="Linkedin Logo"/>
+                    </a>
+
+                    <a href="https://github.com/Gabriellima784" target="blank">
+                        <img className="icon" id="GitHub"  src="https://raw.githubusercontent.com/Gabriellima784/images/main/Vector%20(1).png" alt="GitHub Logo"/>
+                    </a>
+                    
+                    <a href="https://drive.google.com/file/d/19y5Kr_ORlnz4X_cJEkh8lxk4ypiYsgkL/view?usp=sharinghttps://drive.google.com/file/d/19y5Kr_ORlnz4X_cJEkh8lxk4ypiYsgkL/view?usp=sharing" target="blank">
+                        <img className="icon" id="Curriculo" src="https://raw.githubusercontent.com/Gabriellima784/images/main/Vector%20(2).png"alt="Curriculo Logo"/>
+                    </a>
+
                 </div>
                 <div className="resume">
                     <p className="tex">Tenho 21 anos de idade e sou desenvolvedor Front-End,</p>

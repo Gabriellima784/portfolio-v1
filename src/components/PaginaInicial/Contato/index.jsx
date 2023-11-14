@@ -25,7 +25,7 @@ const ContactMe = () => {
         <div className="NewsletterIcon">
           <img src="https://raw.githubusercontent.com/Gabriellima784/images/main/Vector9.png" alt="Email" />
         </div>
-            <span ref={emailRef} className="email">gabriellima0129@outlook.com</span>
+            <span ref={emailRef} className="email">gabriellima0129b@gmail.com</span>
         </div>
             <button onClick={handleEmailCopy} className="Button">{emailCopied ? "Copiado!" : "Copiar Email"}</button>
     </div>
